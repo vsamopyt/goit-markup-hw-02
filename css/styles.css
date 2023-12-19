@@ -21,26 +21,19 @@ h1,h2 {
 h2 {
     color: #2E2F42;
     text-align: center;
-    /* Header 2 */
-    /* font-family: Roboto; */
     font-size: 36px;
-    /* font-style: normal; */
-    /* font-weight: 700; */
-    line-height: calc(40/36); /* 111.111% */
+    line-height: calc(40/36); 
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    /* line-height: 40px; /* 111.111% */
-    /* letter-spacing: 0.72px; */
 }
 
 h3 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height:  calc(24/20); /* 120% */
+    line-height:  calc(24/20); 
     letter-spacing: 0.02em;
-    /* line-height:  24px; /* 120% */
-    /* letter-spacing: 0.4px; */
+
  
 }
 
@@ -49,10 +42,8 @@ h3 {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    /* line-height: 21px; 116.667% */
     line-height: calc(21/18);
     letter-spacing: 0.03em;
-    /* letter-spacing: 0.54px; */
     text-transform: uppercase;
 }
 
@@ -64,21 +55,15 @@ h3 {
     color: #2E2F42;
     font-weight: 500;
     line-height: calc(24/16);
-    /* line-height: 24px; 150% */
     letter-spacing: 0.01em;
-   /* letter-spacing: 0.32px; */
 }
 
 .list-contact .item-link {
     color:  #434455;
-    /* font-family: Roboto;
-    font-size: 16px;
-    font-style: normal; */
+
     font-weight: 400;
     line-height: calc(24/16);
     letter-spacing: 0.01em;
-    /* line-height: 24px; /* 150% */
-    /*letter-spacing: 0.32px; */
 }
 
 .hero {
@@ -88,14 +73,9 @@ h3 {
 h1 {
     color:  #FFF;
     text-align: center;
-    /* font-family: Roboto; */
     font-size: 56px;
-    /* font-style: normal; */
-    /* font-weight: 700; */
-    line-height: calc(60/56); /* 107.143% */
+    line-height: calc(60/56); 
     letter-spacing: 0.02em;
-    /*line-height: 60px; /* 107.143% */
-    /* letter-spacing: 1.12px; */
 }
 
 .hero-button {
@@ -104,10 +84,8 @@ h1 {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: calc(24/16); /* 150% */
+    line-height: calc(24/16); 
     letter-spacing: 0.04em;
-    /* line-height: 24px; /* 150% */
-    /*letter-spacing: 0.64px; */
     border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -118,10 +96,9 @@ h1 {
 
 
 .feature-list .item-text {
-    line-height: calc(24/16); /* 150% */
+    line-height: calc(24/16); 
     letter-spacing: 0.02em;
-    /* line-height: 24px; /* 150% */
-    /* letter-spacing: 0.32px; */
+  
 }
 
 .team {
@@ -135,10 +112,8 @@ h1 {
 .team-list .item-text,
 .portfolio-list .item-text,
 .footer .text {
-    line-height: calc(24/16);/* 150% */
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
-    /* line-height: 24px;/* 150% */
-   /* letter-spacing: 0.32px; */
 }
 
 .team-list .item-text {
@@ -165,7 +140,8 @@ h1 {
     
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color:#404BBF;
 }
 
