@@ -20,7 +20,7 @@ h1,h2 {
 
 h2 {
     color: #2E2F42;
-    text-align: center;
+    /* text-align: center; */
     font-size: 36px;
     line-height: 1.11; 
     letter-spacing: 0.02em;
@@ -73,7 +73,7 @@ h3 {
 
 h1 {
     color:  #FFF;
-    text-align: center;
+    /* text-align: center; */
     font-size: 56px;
     line-height: 1.07; 
     letter-spacing: 0.02em;
@@ -87,7 +87,6 @@ h1 {
     font-weight: 500;
     line-height: calc(24/16); 
     letter-spacing: 0.04em;
-    /* border-radius: 4px; */
     background-color: #4D5AE5;
     cursor: pointer;
 }
@@ -107,9 +106,9 @@ h1 {
     background-color: #FFFFFF;
 }
 
-.team h3 {
+/* .team h3 {
     text-align: center;
-}
+} */
 
 .team-list .item-text,
 .portfolio-list .item-text,
@@ -118,9 +117,9 @@ h1 {
     letter-spacing: 0.02em;
 }
 
-.team-list .item-text {
+/* .team-list .item-text {
     text-align: center;
-}
+} */
 
 .footer {
     background-color: #2E2F42;
@@ -137,10 +136,7 @@ h1 {
 .item-link:hover,
 .item-link:focus
   {
-    /* color:white; */
-    color:#404BBF
-    /* background-color:#404BBF ; */
-    
+    color:#404BBF  
 }
 
 .hero-button:hover,
